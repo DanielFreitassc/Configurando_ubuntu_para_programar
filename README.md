@@ -64,6 +64,18 @@ sudo apt-get -y install postgresql
 psql --version
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/75e5b059-60ae-4d23-9268-777ecbcc2e48)
+### - Pronto instalação do postgresSQL feita mas agora vamos configurar nosso usario que acessara o banco de dados cole o comando abaixo no terminal.
+```
+sudo -u postgres psql
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/fcee6b6f-725f-428b-a8cc-5a77582dfa2a)
 
+### Agora vamos configurar a nossa senha do nosso usario cole no terminal o comando abaixo e antes de dar enter Substitua  ```seu_usuario``` e a ```sua_senha``` 
+```
+CREATE USER seu_usuario WITH PASSWORD 'sua_senha';
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/d9dbfebb-d302-4e29-91dc-6e12f6759e31)
+
+### Digite ```exit``` e pra sair das configurações do postgresSQL.
 
 
