@@ -47,6 +47,23 @@ sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/6ce8f7f4-dc8b-4627-8a74-b996904b9146)
 
 ### - Atualize os pacotes do linux inserindo o comando abaixo e dando Enter.
-´´´
+
+```
 sudo apt-get update
-´´´
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/e131bd59-e18f-4dd4-8e61-ad4256f4b0f1)
+
+### - Por fim instale o PostgresSQL inserindo o comando abaixo e dando Enter.
+```
+sudo apt-get -y install postgresql
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/0a2c949d-d77d-4b88-8189-ea82937c74a4)
+
+### - Verifique se foi instalado corretamente com o comando abaixo.
+```
+psql --version
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/75e5b059-60ae-4d23-9268-777ecbcc2e48)
+
+
+
