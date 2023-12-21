@@ -85,23 +85,26 @@ sudo apt  install curl
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/02d7dadc-0313-4864-a784-655ab4a4eb62)
 
-### - Primeiro vamos instalar a public key para o repositorio insira o comando abaixo e digite ```Y```quando for pedido a confirmação
+### - Agora vamos instalar a public key para o repositorio insira o comando abaixo e digite ```Y```quando for pedido a confirmação
 ```
 curl -fsS https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo gpg --dearmor -o /usr/share/keyrings/packages-pgadmin-org.gpg
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/2ecdb6b0-5518-4d58-a2c6-f1c03c99cd53)
 
-### - Agora crie o arquivo de configuração do repositório.
+### - E agora crie o arquivo de configuração do repositório.
 ```
 sudo sh -c 'echo "deb [signed-by=/usr/share/keyrings/packages-pgadmin-org.gpg] https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/2df17188-52fc-4c5e-8474-5ee4b5941895)
 
+### - Instale o pgAdmin colando o comando abaixo agora e digite ```Y```quando for pedido a confirmação.
+```
+sudo apt install pgadmin4-desktop
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/a06df160-72c9-4cb3-9934-c112fc9a5bcf)
 
-
-
-
-
+### - Por fim pesquise por pgAdmin.
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/cd3f9e4b-8270-4a89-9dde-c73a69e4c5ac)
 
 # [APIDOG](https://apidog.com/?utm_source=google_search&utm_medium=g&utm_campaign=18544428894&utm_content=153517438552&utm_term=api%20dog&gad_source=1&gclid=EAIaIQobChMIwdv1_9qfgwMVsUNIAB07bgq0EAAYASAAEgIf4vD_BwE)
 ### - Vá até a pagina do apidog pelo link e clique em download.
