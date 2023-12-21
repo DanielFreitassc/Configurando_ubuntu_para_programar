@@ -36,7 +36,7 @@ sudo apt-get install -f
 
 ### - Pronto agora só pesquisar pelo nome.
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/99d8d9a5-8a4d-4a6c-854c-af2ca3f41561)
-
+___
 # [PostgresSQL](https://www.postgresql.org/download/linux/ubuntu/)
 ### - Primeiro abra o terminal segurando CTRL + ALT + T e cole o comando abaixo de Enter e insira sua senha.
 ```
@@ -77,7 +77,7 @@ CREATE USER seu_usuario WITH PASSWORD 'sua_senha';
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/d9dbfebb-d302-4e29-91dc-6e12f6759e31)
 
 ### Digite ```exit``` e pra sair das configurações do postgresSQL.
-
+___
 # [pgAdmin](https://www.pgadmin.org/download/pgadmin-4-apt/)
 ### - Primeiro vamos instalar o curl cole o comando abaixo no terminal.
 ```
@@ -105,9 +105,41 @@ sudo apt install pgadmin4-desktop
 
 ### - Por fim pesquise por pgAdmin.
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/cd3f9e4b-8270-4a89-9dde-c73a69e4c5ac)
+___
+# [Java JDK 17](https://www.oracle.com/br/java/technologies/downloads/#java17)
+### Acesse o link e selecione JDK 15 e linux e por fim baixe o aquivo x64 Debian Package
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/0180b6b5-9e18-4325-a7e6-e7bb9ac66b48)
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/42bfec85-0307-41fd-a951-315faffe8a57)
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/44425417-5410-415c-a10a-8591732fbff5)
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/dafcfe22-171d-4f5a-9a3a-84227d0e4a82)
+
+### - Vá até a past onde foi baixado clicando no icone de pasta do seu navegador.
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/b0935bd2-9699-47e4-bbec-377a0baa6070)
+### - Abra o terminal na pasta 
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/e4a92192-6319-4914-b6e7-c8fa7e0e376f)
+### - Agora vamos instlar o pacote cole o comando abaixo.
+```
+sudo dpkg -i jdk-17_linux-x64_bin.deb
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/aa9148b3-36c7-4639-be99-8a1777240372)
+
+### - Vamos garantir que todas as dependências foram instalas cole o comando abaixo.
+```
+sudo apt-get install -f
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/cca9527c-c7b8-4206-bb80-11b9fe65a990)
+
+### - Por fim vamos ver se instalou o java cole o comando abaixo no terminal.
+```
+java -version
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/d9888ac1-f514-4087-bee2-eed600582d01)
+
+___
 
 # [APIDOG](https://apidog.com/?utm_source=google_search&utm_medium=g&utm_campaign=18544428894&utm_content=153517438552&utm_term=api%20dog&gad_source=1&gclid=EAIaIQobChMIwdv1_9qfgwMVsUNIAB07bgq0EAAYASAAEgIf4vD_BwE)
 ### - Vá até a pagina do apidog pelo link e clique em download.
+
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/a7534e8f-1d25-473b-9740-7a002935e37f)
 
 ### - Escolha o download .deb
