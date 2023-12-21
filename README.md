@@ -37,4 +37,16 @@ sudo apt-get install -f
 ### - Pronto agora só pesquisar pelo nome.
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/99d8d9a5-8a4d-4a6c-854c-af2ca3f41561)
 
+# [PostgresSQL](https://www.postgresql.org/download/linux/ubuntu/)
+### - Primeiro abra o terminal segurando CTRL + ALT + T e cole o comando abaixo de Enter e insira sua senha.
+```
+sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/41674af5-f271-4a41-afeb-a223dce61791)
+### - Ainda no terminal insira o proximo comando no terminal e de Enter.
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/6ce8f7f4-dc8b-4627-8a74-b996904b9146)
 
+### - Atualize os pacotes do linux inserindo o comando abaixo e dando Enter.
+´´´
+sudo apt-get update
+´´´
