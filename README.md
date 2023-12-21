@@ -78,4 +78,31 @@ CREATE USER seu_usuario WITH PASSWORD 'sua_senha';
 
 ### Digite ```exit``` e pra sair das configurações do postgresSQL.
 
+# [APIDOG](https://apidog.com/?utm_source=google_search&utm_medium=g&utm_campaign=18544428894&utm_content=153517438552&utm_term=api%20dog&gad_source=1&gclid=EAIaIQobChMIwdv1_9qfgwMVsUNIAB07bgq0EAAYASAAEgIf4vD_BwE)
+### - Vá até a pagina do apidog pelo link e clique em download.
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/a7534e8f-1d25-473b-9740-7a002935e37f)
+
+### - Escolha o download .deb
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/18104468-b6d9-458c-84b2-d42e71a616c5)
+
+### - Vá até a pasta onde foi instalado o .deb  clicando no icone de pasta do seu navegador
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/ced70e21-5a18-4bfd-b7cb-cb0f70af0029)
+
+### - Aperte o botão direito do mouse e abra com o termial.
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/3be47011-200a-4f5b-990b-5a2ab9943f5f)
+
+### - Agora vamos descompactar o .zip cole o comando abaixo no terminal.
+```
+unzip Apidog-linux-deb-latest.zip
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/fe1cc18d-3d1a-485a-8d50-78853c3e9bb3)
+
+### - Agora vamos instalar o pacote .deb
+```
+sudo dpkg -i apidog_2.4.7_amd64.deb
+```
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/71ee6b0e-b9d6-40ad-989a-76fb896c5a11)
+
+### - Agora é só pesquisar o apidog.
+![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/95883a5a-beed-4113-aac7-9e53ff629ce9)
 
