@@ -44,6 +44,7 @@ sudo sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/41674af5-f271-4a41-afeb-a223dce61791)
 ### - Ainda no terminal insira o proximo comando no terminal e de Enter.
+```wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/6ce8f7f4-dc8b-4627-8a74-b996904b9146)
 
 ### - Atualize os pacotes do linux inserindo o comando abaixo e dando Enter.
