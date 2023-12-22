@@ -79,7 +79,7 @@ CREATE USER seu_usuario WITH PASSWORD 'sua_senha';
 ```
 ### Ou você pode só alterar a senha do usuario padrao postgres.
 ```
-ALTER USER seu_usuario WITH PASSWORD 'nova_senha';
+ALTER USER postgres WITH PASSWORD 'nova_senha';
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/d9dbfebb-d302-4e29-91dc-6e12f6759e31)
 
