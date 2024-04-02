@@ -146,7 +146,7 @@ java -version
 ___
 ### - Agora vamos instalar o maven 
 ```
-sudo apt install maven
+sudo apt install maven -y
 ```
 ___
 
