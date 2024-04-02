@@ -8,6 +8,7 @@ ___
 ###  - PostgresSql
 ###  - pgAdmin
 ###  - Java 17(JDK 17)
+### - Maven
 ###  - Apidog
 ____ 
 # [Visual Studio Code](https://code.visualstudio.com/)
@@ -142,6 +143,11 @@ java -version
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/d9888ac1-f514-4087-bee2-eed600582d01)
 
+___
+### - Agora vamos instalar o maven 
+```
+sudo apt install maven
+```
 ___
 
 # [APIDOG](https://apidog.com/?utm_source=google_search&utm_medium=g&utm_campaign=18544428894&utm_content=153517438552&utm_term=api%20dog&gad_source=1&gclid=EAIaIQobChMIwdv1_9qfgwMVsUNIAB07bgq0EAAYASAAEgIf4vD_BwE)
