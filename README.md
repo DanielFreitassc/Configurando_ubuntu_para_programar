@@ -125,6 +125,7 @@ ___
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/b0935bd2-9699-47e4-bbec-377a0baa6070)
 ### - Abra o terminal na pasta 
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/e4a92192-6319-4914-b6e7-c8fa7e0e376f)
+
 ### - Agora vamos instlar o pacote cole o comando abaixo.
 ```
 sudo dpkg -i jdk-17_linux-x64_bin.deb
@@ -142,8 +143,8 @@ sudo apt-get install -f
 java -version
 ```
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/d9888ac1-f514-4087-bee2-eed600582d01)
-
 ___
+# Maven
 ### - Agora vamos instalar o maven 
 ```
 sudo apt install maven -y
