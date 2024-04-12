@@ -181,4 +181,3 @@ sudo dpkg -i apidog_2.4.7_amd64.deb
 ![image](https://github.com/DanielFreitassc/Configurando_ubuntu_para_programar/assets/129224303/95883a5a-beed-4113-aac7-9e53ff629ce9)
 
 # Pronto agora você tem diversas ferramentas para poder fazer seus projetos se gostou de um estrela no repositório. 
-
