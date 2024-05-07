@@ -2,6 +2,11 @@
 ___
 
 # Este guia foi feito por daniel freitas para quem tem interesse em começar a programar com o linux, em especial o Ubuntu que é uma otima distro que vem sempre se atualizando.
+# Se preferir você pode clonar o repositorio e executar o script de instalação sh que vai com um kit de diversos softwares para programação 
+## Clonte o repositorio e na pasta rode no terminal o comando abaixo
+```
+sh linux.sh
+```
 
 ## Ferramentas Devs que iremos instalar
 ### - Visual Studio Code
